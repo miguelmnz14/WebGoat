@@ -107,7 +107,7 @@
   <properties>
     <sonar.moduleKey>${project.groupId}:${project.artifactId}</sonar.moduleKey>
     <skipTests>true</skipTests>
-      
+    <sonar.sources>src/main/java,src/main/resources</sonar.sources>  
     <sonar.organization>miguelmnz14</sonar.organization>
       
       
